@@ -14,3 +14,12 @@ RewriteRule . /yasothonitservice/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# ทิศทาง (เส้น) ระหว่าง "จุดเริ่มต้น Simply Static" และ "จุดสิ้นสุด Simply Static" จะถูกสร้างขึ้นมา
+# โดยอัตโนมัติและควรจะถูกแก้ไขได้ด้วยตัวกรองของ WordPress เท่านั้น
+# การเปลี่ยนแปลงใดๆ ที่กระทำต่อทิศทางระหว่างเครื่องหมายจะถูกเขียนทับ
+<Files "C:\xampp\htdocs\yasothonitservice/wp-content/uploads\simply-static\f09a75cda398363a10e08e6958f5a74d-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
