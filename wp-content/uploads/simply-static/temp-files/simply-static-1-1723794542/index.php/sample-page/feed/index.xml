@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ความเห็นบน: หน้าตัวอย่าง	</title>
-	<atom:link href="/index.php/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://phoomdev.github.io/yasothonitservice/index.php/sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link>https://phoomdev.github.io/yasothonitservice</link>
 	<description></description>
 	<lastBuildDate>Thu, 15 Aug 2024 07:44:32 +0000</lastBuildDate>
 	<sy:updatePeriod>

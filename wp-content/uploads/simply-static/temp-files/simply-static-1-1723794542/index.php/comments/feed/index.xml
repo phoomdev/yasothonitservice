@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ความเห็นสำหรับ ยโสธรไอทีเซอร์วิส	</title>
-	<atom:link href="/index.php/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://phoomdev.github.io/yasothonitservice/index.php/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://phoomdev.github.io/yasothonitservice</link>
 	<description></description>
 	<lastBuildDate>Thu, 15 Aug 2024 07:44:32 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		ความเห็นบน สวัสดีชาวโลก &#8211; -&#8216; โดย ผู้แสดงความเห็น WordPress		</title>
-		<link>/index.php/2024/08/15/hello-world/#comment-1</link>
+		<link>https://phoomdev.github.io/yasothonitservice/index.php/2024/08/15/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[ผู้แสดงความเห็น WordPress]]></dc:creator>
 		<pubDate>Thu, 15 Aug 2024 07:44:32 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://phoomdev.github.io/yasothonitservice/?p=1#comment-1</guid>
 
 					<description><![CDATA[สวัสดี นี่คือความเห็น
 เพื่อเริ่มต้นการตรวจสอบ การแก้ไข และการลบความเห็น โปรดเข้าไปที่หน้าจอความเห็นบนแผงควบคุม

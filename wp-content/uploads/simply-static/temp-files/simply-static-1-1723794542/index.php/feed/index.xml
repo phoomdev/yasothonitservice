@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Yaso &#8211; ยโสธรไอทีเซอร์วิส</title>
-	<atom:link href="/index.php/author/yaso/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<title>ยโสธรไอทีเซอร์วิส</title>
+	<atom:link href="https://phoomdev.github.io/yasothonitservice/index.php/feed/" rel="self" type="application/rss+xml" />
+	<link>https://phoomdev.github.io/yasothonitservice</link>
 	<description></description>
 	<lastBuildDate>Thu, 15 Aug 2024 07:44:32 +0000</lastBuildDate>
 	<language>th</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.5</generator>
 	<item>
 		<title>สวัสดีชาวโลก &#8211; -&#8216;</title>
-		<link>/index.php/2024/08/15/hello-world/</link>
-					<comments>/index.php/2024/08/15/hello-world/#comments</comments>
+		<link>https://phoomdev.github.io/yasothonitservice/index.php/2024/08/15/hello-world/</link>
+					<comments>https://phoomdev.github.io/yasothonitservice/index.php/2024/08/15/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[Yaso]]></dc:creator>
 		<pubDate>Thu, 15 Aug 2024 07:44:32 +0000</pubDate>
 				<category><![CDATA[ไม่มีหมวดหมู่]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">https://phoomdev.github.io/yasothonitservice/?p=1</guid>
 
 					<description><![CDATA[ยินดีต้อนรับสู่ WordPress นี่คือเรื่องแรกของคุณ แก้ไขหร [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>ยินดีต้อนรับสู่ WordPress นี่คือเรื่องแรกของคุณ แก้ไขหรือลบทิ้งไป แล้วมาเริ่มเขียนกัน!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/index.php/2024/08/15/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>https://phoomdev.github.io/yasothonitservice/index.php/2024/08/15/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
