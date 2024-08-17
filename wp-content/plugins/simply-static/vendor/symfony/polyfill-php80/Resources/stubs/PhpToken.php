@@ -1,16 +1,5 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-if (\PHP_VERSION_ID < 80000 && extension_loaded('tokenizer')) {
-    class PhpToken extends Symfony\Polyfill\Php80\PhpToken
-    {
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class 'Symfony\Polyfill\Php80\PhpToken' not found in C:\xampp\htdocs\yasothonitservice\wp-content\plugins\simply-static\vendor\symfony\polyfill-php80\Resources\stubs\PhpToken.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\yasothonitservice\wp-content\plugins\simply-static\vendor\symfony\polyfill-php80\Resources\stubs\PhpToken.php</b> on line <b>13</b><br>

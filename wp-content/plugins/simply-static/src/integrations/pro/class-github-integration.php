@@ -1,13 +1,5 @@
-<?php
-namespace Simply_Static;
-
-class Github_Integration extends Pro_Integration {
-	protected $id = 'github';
-
-	protected $always_active = true;
-
-	public function __construct() {
-		$this->name = __( 'Github', 'simply-static' );
-		$this->description = __( 'Used when deploying the exported sites to Github', 'simply-static' );
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class 'Simply_Static\Pro_Integration' not found in C:\xampp\htdocs\yasothonitservice\wp-content\plugins\simply-static\src\integrations\pro\class-github-integration.php:4
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\yasothonitservice\wp-content\plugins\simply-static\src\integrations\pro\class-github-integration.php</b> on line <b>4</b><br>

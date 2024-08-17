@@ -1,53 +1,6 @@
-<?php
-/**
- * The template part for displaying results in search pages
- *
- * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
- */
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-	</header><!-- .entry-header -->
-
-	<?php twentysixteen_post_thumbnail(); ?>
-
-	<?php twentysixteen_excerpt(); ?>
-
-	<?php if ( 'post' === get_post_type() ) : ?>
-
-		<footer class="entry-footer">
-			<?php twentysixteen_entry_meta(); ?>
-			<?php
-				edit_post_link(
-					sprintf(
-						/* translators: %s: Post title. Only visible to screen readers. */
-						__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-						get_the_title()
-					),
-					'<span class="edit-link">',
-					'</span>'
-				);
-			?>
-		</footer><!-- .entry-footer -->
-
-	<?php else : ?>
-
-		<?php
-			edit_post_link(
-				sprintf(
-					/* translators: %s: Post title. Only visible to screen readers. */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-					get_the_title()
-				),
-				'<footer class="entry-footer"><span class="edit-link">',
-				'</span></footer><!-- .entry-footer -->'
-			);
-		?>
-
-	<?php endif; ?>
-</article><!-- #post-<?php the_ID(); ?> -->
-
+<article id="post-<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function the_ID() in C:\xampp\htdocs\yasothonitservice\wp-content\themes\twentysixteen\template-parts\content-search.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\yasothonitservice\wp-content\themes\twentysixteen\template-parts\content-search.php</b> on line <b>11</b><br />
+"></article>
