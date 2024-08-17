@@ -1,5 +1,21 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Class 'Simply_Static\Pro_Integration' not found in C:\xampp\htdocs\yasothonitservice\wp-content\plugins\simply-static\src\integrations\pro\class-multilingual-integration.php:4
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\yasothonitservice\wp-content\plugins\simply-static\src\integrations\pro\class-multilingual-integration.php</b> on line <b>4</b><br>
+<?php
+namespace Simply_Static;
+
+class Multilingual_Integration extends Pro_Integration {
+	/**
+	 * A string ID of integration.
+	 *
+	 * @var string
+	 */
+	protected $id = 'multilingual';
+
+	public function __construct() {
+		$this->name = __( 'WPML - Multilingual', 'simply-static' );
+		$this->description = __( 'Integrates WPML to work with exported sites.', 'simply-static' );
+	}
+
+	public function dependency_active() {
+		return is_plugin_active( 'sitepress-multilingual-cms/sitepress.php' );
+	}
+
+}
